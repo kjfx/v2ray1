@@ -1,5 +1,5 @@
 # 2023最新一键搭建教程，支持V2ray、Xray节点等，操作简单，4K速度
-一键搭建教程，支持V2ray节点搭建、vlsess节点等，操作简单。
+V2ray节点搭建教程：▶ https://youtu.be/UWWlrj26G50
 
 ### 一、VPS购买：https://www.vultr.com/?ref=8753714
 
