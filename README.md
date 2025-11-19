@@ -1,7 +1,7 @@
 # 一键搭建教程，支持V2ray、Xray节点等，操作简单，4K速度
 V2ray节点搭建教程：▶ https://youtu.be/UWWlrj26G50
 
-### 一、VPS购买：https://www.vultr.com/
+### 一、VPS购买：https://www.vultr.com/?ref=9827682
 VPS服务器选择说明：[点击查看>>](https://raw.githubusercontent.com/kjfx/v2ray1/refs/heads/main/vps%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%80%89%E6%8B%A9%E8%AF%B4%E6%98%8E.png)
 
 ### 二、搭建工具下载
