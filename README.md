@@ -1,39 +1,15 @@
-# 一键搭建教程，支持V2ray、Xray节点等，操作简单，4K速度
-V2ray节点搭建教程：▶ https://youtu.be/UWWlrj26G50
+# S-UI面板搭建教程，功能强大！支持Anytls，Hysteria2，Vless+Reality，TUIC协议等，s-ui怎么使用一键脚本搭建anytls
 
 ### 一、VPS购买：https://www.vultr.com/?ref=9827682
 VPS服务器选择说明：[点击查看>>](https://raw.githubusercontent.com/kjfx/v2ray1/refs/heads/main/vps%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%80%89%E6%8B%A9%E8%AF%B4%E6%98%8E.png)
 
 ### 二、搭建工具下载
-下载地址：https://kjfx.lanzoui.com/iqm6Uosbzha    备用下载地址（含MAC版）：<a href="http://www.hostbuf.com/t/988.html" target="_blank">点击下载>></a>
+下载地址：https://kjfx.lanzoui.com/iqm6Uosbzha , 备用下载地址（含MAC版）：<a href="http://www.hostbuf.com/t/988.html" target="_blank">点击下载>></a>
 
 
 ### 三、搭建代码：
-    bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/956bf85bbac978d56c0e319c5fac2d6db7df9564/install.sh) 0.3.4.4
-    
-备用搭建代码（两个任意选择一个使用）
+    bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)
 
-    bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh) 0.3.4.4
-    
-### 四、搭建完后，放行端口
-    iptables -I INPUT -p tcp --dport 54321 -j ACCEPT
-    iptables -I INPUT -p tcp --dport 443 -j ACCEPT
-    iptables -I INPUT -p tcp --dport 80 -j ACCEPT
-
-### 五、安装证书
-    curl https://get.acme.sh | sh; apt install socat -y || yum install socat -y; ~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
-
-#### 申请证书方式1
-    ~/.acme.sh/acme.sh  --issue -d 你的域名 --standalone -k ec-256 --force --insecure
-
-#### 申请证书方式2
-    ~/.acme.sh/acme.sh --register-account -m "${RANDOM}@chacuo.net" --server buypass --force --insecure && ~/.acme.sh/acme.sh  --issue -d 你的域名 --standalone -k ec-256 --force --insecure --server buypass
-
-#### 申请证书方式3：
-    ~/.acme.sh/acme.sh --register-account -m "${RANDOM}@chacuo.net" --server zerossl --force --insecure && ~/.acme.sh/acme.sh  --issue -d 你的域名 --standalone -k ec-256 --force --insecure --server zerossl
-
-#### 安装证书：
-    ~/.acme.sh/acme.sh --install-cert -d 你的域名 --ecc --key-file /etc/x-ui/server.key --fullchain-file /etc/x-ui/server.crt
 
 ### 翻墙软件下载
 Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/download/6.23/zz_v2rayN-With-Core-SelfContained.7z<br>
