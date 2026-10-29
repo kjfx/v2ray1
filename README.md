@@ -11,7 +11,7 @@ VPS服务器选择说明：[点击查看>>](https://raw.githubusercontent.com/kj
     bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)
 
 
-### 翻墙软件下载
-Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/download/6.23/zz_v2rayN-With-Core-SelfContained.7z<br>
-Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5.apk<br>
-IOS（shadowrocket）：https://github.com/kjfx/AppleID<br>
+### 使用客户端下载
+Windows（v2rayN）：[点击下载>>](https://github.com/2dust/v2rayN/releases/latest/download/v2rayN-windows-64.zip)<br>
+Android（v2rayNG）：[点击下载>>](https://github.com/2dust/v2rayNG/releases/download/2.3.11/v2rayNG_2.3.11_arm64-v8a.apk)<br>
+IOS（shadowrocket）：[https://github.com/kjfx/AppleID](https://github.com/kjfx/AppleID)
