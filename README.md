@@ -10,8 +10,28 @@ VPS服务器选择说明：[点击查看>>](https://raw.githubusercontent.com/kj
 ### 三、搭建代码：
     bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)
 
+### 四、准备工作（可选）
+- 更新系统<br>
+apt update && apt upgrade -y
 
-### 使用客户端下载
+- 安装 curl<br>
+apt install curl -y
+
+- 关闭防火墙：<br>
+sudo ufw disable
+
+- 查看防火墙状态：<br>
+sudo ufw status
+
+- 放行端口：<br>
+sudo ufw allow 80<br>
+sudo ufw allow 443<br>
+提示：80/443/S-UI面板对应的端口/节点端口需要放行，如果关闭防火墙了这一步可以忽略。
+
+### 五、域名注册解析教程：[点击查看>>](https://youtu.be/3rRZY0-CH0E)
+
+
+### 六、使用客户端下载
 Windows（v2rayN）：[点击下载>>](https://github.com/2dust/v2rayN/releases/latest/download/v2rayN-windows-64.zip)<br>
 Android（v2rayNG）：[点击下载>>](https://github.com/2dust/v2rayNG/releases/download/2.3.11/v2rayNG_2.3.11_arm64-v8a.apk)<br>
 IOS（shadowrocket）：[https://github.com/kjfx/AppleID](https://github.com/kjfx/AppleID)
