@@ -43,5 +43,5 @@ REALITY 目标网站 SNI
     www.amd.com
     www.nvidia.com
     www.samsung.com
-    www.microsoft.com
+    www.apple.com
     www.amazon.com
