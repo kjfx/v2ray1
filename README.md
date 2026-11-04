@@ -35,6 +35,8 @@ sudo ufw allow 443<br>
 Windows（v2rayN）：[点击下载>>](https://github.com/2dust/v2rayN/releases/latest/download/v2rayN-windows-64.zip)<br>
 Android（v2rayNG）：[点击下载>>](https://github.com/2dust/v2rayNG/releases/download/2.3.11/v2rayNG_2.3.11_arm64-v8a.apk)<br>
 IOS（shadowrocket）：[https://github.com/kjfx/AppleID](https://github.com/kjfx/AppleID)
+Clash Verge：[点击下载>>](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest)
+Clash Meta：[点击下载>>](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest)
 
 ### 其它内容
 REALITY 目标网站 SNI
