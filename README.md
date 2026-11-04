@@ -1,4 +1,5 @@
 # S-UI面板搭建教程，功能强大！支持Anytls，Hysteria2，Vless+Reality，TUIC协议等，s-ui怎么使用一键脚本搭建anytls
+视频教程：▶ https://youtu.be/SOVt7ZHHePo
 
 ### 一、VPS购买：https://www.vultr.com/?ref=9827682
 VPS服务器选择说明：[点击查看>>](https://raw.githubusercontent.com/kjfx/v2ray1/refs/heads/main/vps%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%80%89%E6%8B%A9%E8%AF%B4%E6%98%8E.png)
